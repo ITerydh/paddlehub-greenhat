@@ -6,6 +6,9 @@
 被抖音洗脑的人间的青草地需要浇水~
 
 驱使了我想要做本项目
+附AIstudio项目链接 
+
+> [aistudio 项目地址https://aistudio.baidu.com/aistudio/projectdetail/2108944](https://aistudio.baidu.com/aistudio/projectdetail/2108944)
 
 话不多说，开干！
 
@@ -77,7 +80,7 @@ plt.imshow(img)
 
 
 
-![png](output_6_2.png)
+![png](https://github.com/ITerydh/paddlehub-greenhat/blob/main/output_6_2.png)
 
 
 
@@ -195,7 +198,7 @@ w = left-20
 h = 0
 
 # 粘贴子图到母图的指定坐标（当前居中）
-M_Img.paste(icon, (w, h), mask=None)
+M_Img.paste(icon, (w, h), mask=icon)
 
 # 保存图片
 M_Img.save(save_img)
@@ -224,7 +227,7 @@ plt.imshow(img)
 
 
 
-![png](output_14_1.png)
+![png](https://github.com/ITerydh/paddlehub-greenhat/blob/main/6.png)
 
 
 # 总结
@@ -232,9 +235,9 @@ plt.imshow(img)
 1. 利用PaddleHub获取人体的头部位置
 2. 合理计算出帽子所需要放置的位置
 3. 图片合成
-4. 很明显（我这个版本很失败，还没有找到好的办法去把图片的黑色去掉，郁闷（明明帽子图片是PNG且代码也写了RGBA））
+x(已解决) 4. 很明显（我这个版本很失败，还没有找到好的办法去把图片的黑色去掉，郁闷（明明帽子图片是PNG且代码也写了RGBA））
 
-我在AI Studio上获得黄金等级，点亮8个徽章，来互关呀~ 
+我在AI Studio上获得钻石等级，点亮9个徽章，来互关呀~ 
 
 https://aistudio.baidu.com/aistudio/personalcenter/thirdview/643467
 
